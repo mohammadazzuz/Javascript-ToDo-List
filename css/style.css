@@ -83,6 +83,13 @@ body{
 }
 
 
+.complete-todo{
+    text-decoration: line-through;
+}
+.remove-todo{
+    display: none !important;
+}
+
 
 
 

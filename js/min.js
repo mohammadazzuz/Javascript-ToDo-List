@@ -17,6 +17,8 @@ function addTodo(e){
     newTodo.classList.add('todo-title')
     todoDiv.appendChild(newTodo)
 
+    // remove data from input
+    todoInput.value=''
 
     // creat buttons div
     const buttonDiv = document.createElement('div')
@@ -24,14 +26,12 @@ function addTodo(e){
 
     // add complete , delete buttons
     const completeBtn = document.createElement('button')
-    completeBtn.innerHTML = `<i class="fa-regular fa-square-check icon "></i>`
-    completeBtn.classList.add('complete')
+    completeBtn.innerHTML = `<i class="fa-regular fa-square-check todo-check icon "></i>`
     completeBtn.classList.add('check')
     buttonDiv.appendChild(completeBtn)
 
     const deleteBtn = document.createElement('button')
-    deleteBtn.innerHTML = `<i class="fa-solid fa-trash icon2"></i>`
-    deleteBtn.classList.add('removed')
+    deleteBtn.innerHTML = `<i class="fa-solid fa-trash todo-remove icon2"></i>`
     deleteBtn.classList.add('remove')
     buttonDiv.appendChild(deleteBtn)
     
@@ -40,4 +40,22 @@ function addTodo(e){
 
 }
 
+function toggleToDo(e){
+        const item = e.target
+       // console.log(item.classList)
+         
+        if (item.classList[3] == 'icon'){
+            const btn_div = item.parentElement.parentElement.parentElement
+            btn_div.childNodes[0].classList.toggle('complete-todo')
+        }
+        
+        if (item.classList[3] == "icon2"){
+            const btn_div = item.parentElement.parentElement.parentElement
+            btn_div.childNodes[0].classList.add('remove-todo')
+            btn_div.childNodes[1].classList.add('remove-todo')
+        }
+}
+
+
 todoBtn.addEventListener('click',addTodo)
+todoResult.addEventListener('click',toggleToDo)
