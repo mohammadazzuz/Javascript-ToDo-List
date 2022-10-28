@@ -1,0 +1,85 @@
+body{
+    background-image: url(/img/3347920.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+}
+
+
+.s{
+    margin: 15%;
+}
+
+.todo-items{
+    background-color: white !important;
+}
+
+.btn{
+    color: black;
+    background-color: white;
+    border: 0ch;
+    border-color: white;
+}
+.btn:hover{
+    color: rgb(81, 122, 40);
+    background-color: white;
+    border: 0ch;
+    border-color: white;
+}
+
+.btn:active{
+    color: black !important;
+    background-color: white !important;
+    border: 0ch !important;
+    border-color: white !important;
+}
+
+
+
+
+
+.input-group{
+  margin-left: 0px !important;
+ 
+}
+
+.icon{
+    font-size: 50px;
+    margin: 5px;
+    color: white;
+}
+.icon2{
+    font-size: 50px;
+    margin: 5px;
+    color: white;
+}
+.check{
+    background-color: rgb(41, 132, 132);
+}
+
+.remove{
+    background-color: rgb(119, 100, 100);
+}
+
+.icon:hover, .check:hover{
+        color:rgb(41, 132, 132) ;
+        background-color: white;
+}
+
+.icon2:hover, .remove:hover{
+    color: rgb(119, 100, 100);
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    
