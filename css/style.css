@@ -13,6 +13,7 @@ body{
 .todo-items{
     background-color: white !important;
     margin-bottom: 5px;
+ 
 }
 
 .btn{
@@ -49,6 +50,8 @@ body{
 
 .todo-title{
     font-size: 50px;
+    display: flex;
+    align-items: center;
 }
 
 
