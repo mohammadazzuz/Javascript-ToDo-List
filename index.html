@@ -5,10 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>JavaScript To Do List</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-
     <link rel="stylesheet" href="css/style.css">
   </head>
-  <body>
+  <body style="background-image: url('img/myimg.jpg')  ;">
     <section class="s">
     <div class="container">
       <div class="row">
@@ -28,28 +27,25 @@
           </div>
         </div>
         <div class="col-xl-12">
-          <div class=" d-flex flex-column align-items-center">
-            <div class="todo-result">
-              <div class="d-flex ">
-                <div class="todo-items">
-                  <h1 class="text-center me-5 pe-5">Study Mystro Bootcamp</h1>
+          <div class=" d-flex flex-column align-items-center todo-result">
+              <div class="todo-items d-flex">
+                <h3 class="me-5 pe-5 todo-title">Study Mystro Bootcamp</h3>
+                <div>
+                  <span type="button" class="check">
+                    <i class="fa-regular fa-square-check icon "></i>
+                  </span>
+                  <span type="button" class="remove">
+                    <i class="fa-solid fa-trash icon2"></i>
+                  </span>
                 </div>
-                <span type="button"class="check">
-                  <i class="fa-regular fa-square-check icon "></i>
-                </span>
-                <span type="button" class="remove">
-                  <i class="fa-solid fa-trash icon2"></i>
-                </span>
               </div>
-            </div>
-
           </div>
         </div>
       </div>
     </div>
 </section>
 
-
+<script src="js/min.js"></script>
 <script src="https://kit.fontawesome.com/2013a99220.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
   </body>

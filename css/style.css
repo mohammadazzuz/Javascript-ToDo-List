@@ -12,6 +12,7 @@ body{
 
 .todo-items{
     background-color: white !important;
+    margin-bottom: 5px;
 }
 
 .btn{
@@ -45,30 +46,36 @@ body{
  
 }
 
-.icon{
+
+.todo-title{
     font-size: 50px;
-    margin: 5px;
-    color: white;
-}
-.icon2{
-    font-size: 50px;
-    margin: 5px;
-    color: white;
-}
-.check{
-    background-color: rgb(41, 132, 132);
 }
 
-.remove{
+
+.icon, .check{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    background-color: rgb(41, 132, 132);
+}
+.icon2, .remove{
+    font-size: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
     background-color: rgb(119, 100, 100);
 }
 
-.icon:hover, .check:hover{
+
+
+
+.check:hover, .icon:hover {
         color:rgb(41, 132, 132) ;
         background-color: white;
 }
 
-.icon2:hover, .remove:hover{
+.remove:hover, .icon2:hover{
     color: rgb(119, 100, 100);
     background-color: white;
 }
