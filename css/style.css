@@ -13,17 +13,21 @@ body{
 .todo-items{
     background-color: white !important;
     margin-bottom: 5px;
- 
+    width: 265px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 2px;
+    border-top-left-radius: 2px; 
 }
 
 .btn{
-    color: black;
+    color: rgb(114, 58, 227);
     background-color: white;
     border: 0ch;
     border-color: white;
 }
 .btn:hover{
-    color: rgb(81, 122, 40);
+    color: rgb(75, 131, 81);
     background-color: white;
     border: 0ch;
     border-color: white;
@@ -49,36 +53,39 @@ body{
 
 
 .todo-title{
-    font-size: 50px;
+    font-size: 20px;
+    padding-left: 5px;
     display: flex;
     align-items: center;
 }
 
 
 .icon, .check{
-    font-size: 50px;
+    font-size: 20px;
     padding-left: 5px;
     padding-right: 5px;
     color: white;
-    background-color: rgb(41, 132, 132);
+    background-color: rgb(110, 108, 235);
 }
 .icon2, .remove{
-    font-size: 50px;
+    font-size: 20px;
     padding-left: 5px;
     padding-right: 5px;
     color: white;
-    background-color: rgb(119, 100, 100);
+    background-color: rgb(255, 0, 0);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 2px;
 }
 
 
 
 .check:hover, .icon:hover {
-        color:rgb(41, 132, 132) ;
+        color:rgb(110, 108, 235) ;
         background-color: white;
 }
 
 .remove:hover, .icon2:hover{
-    color: rgb(119, 100, 100);
+    color: rgb(255, 0, 0);
     background-color: white;
 }
 
@@ -89,6 +96,10 @@ body{
 .remove-todo{
     display: none !important;
 }
+
+
+
+
 
 
 

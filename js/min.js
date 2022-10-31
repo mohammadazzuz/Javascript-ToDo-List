@@ -4,6 +4,7 @@ const todoBtn = document.querySelector(".todo-btn")
 const todoResult = document.querySelector('.todo-result')
 
 function addTodo(e){
+    e.preventDefault();
     // add todo-item div
     const todoDiv = document.createElement("div")
     todoDiv.classList.add('todo-items')
@@ -12,7 +13,7 @@ function addTodo(e){
     // add h3 , data:h3
     const newTodo = document.createElement('h3')
     newTodo.innerText = todoInput.value ;
-    newTodo.classList.add('me-5')
+    newTodo.classList.add('me-auto')
     newTodo.classList.add('pe-5')
     newTodo.classList.add('todo-title')
     todoDiv.appendChild(newTodo)
