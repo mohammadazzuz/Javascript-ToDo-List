@@ -30,8 +30,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
     ],
     "fallbackPool": [
       [
+        "@chakra-ui/styled-system",
+        "npm:2.3.4"
+      ],
+      [
         "@types/lodash",
         "npm:4.14.187"
+      ],
+      [
+        "gsap",
+        "npm:3.11.3"
       ],
       [
         "lodash",
@@ -49,11 +57,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@chakra-ui/styled-system", "npm:2.3.4"],
             ["@types/lodash", "npm:4.14.187"],
+            ["gsap", "npm:3.11.3"],
             ["lodash", "npm:4.17.21"],
             ["todo", "npm:0.9.9"]
           ],
           "linkType": "SOFT",
+        }]
+      ]],
+      ["@chakra-ui/styled-system", [
+        ["npm:2.3.4", {
+          "packageLocation": "../.cache/yarn/@chakra-ui-styled-system-npm-2.3.4-c5f54f163a-2.zip/node_modules/@chakra-ui/styled-system/",
+          "packageDependencies": [
+            ["@chakra-ui/styled-system", "npm:2.3.4"],
+            ["csstype", "npm:3.1.1"],
+            ["lodash.mergewith", "npm:4.6.2"]
+          ],
+          "linkType": "HARD",
         }]
       ]],
       ["@types/lodash", [
@@ -70,7 +91,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["Javascript-ToDo-List", "workspace:."],
+            ["@chakra-ui/styled-system", "npm:2.3.4"],
             ["@types/lodash", "npm:4.14.187"],
+            ["gsap", "npm:3.11.3"],
             ["lodash", "npm:4.17.21"],
             ["todo", "npm:0.9.9"]
           ],
@@ -86,6 +109,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["csstype", [
+        ["npm:3.1.1", {
+          "packageLocation": "../.cache/yarn/csstype-npm-3.1.1-3857baf48b-2.zip/node_modules/csstype/",
+          "packageDependencies": [
+            ["csstype", "npm:3.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["eyehurt", [
         ["npm:0.0.1", {
           "packageLocation": "../.cache/yarn/eyehurt-npm-0.0.1-00414865b4-2.zip/node_modules/eyehurt/",
@@ -95,11 +127,29 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["gsap", [
+        ["npm:3.11.3", {
+          "packageLocation": "../.cache/yarn/gsap-npm-3.11.3-b5ab925114-2.zip/node_modules/gsap/",
+          "packageDependencies": [
+            ["gsap", "npm:3.11.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash", [
         ["npm:4.17.21", {
           "packageLocation": "../.cache/yarn/lodash-npm-4.17.21-6382451519-2.zip/node_modules/lodash/",
           "packageDependencies": [
             ["lodash", "npm:4.17.21"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.mergewith", [
+        ["npm:4.6.2", {
+          "packageLocation": "../.cache/yarn/lodash.mergewith-npm-4.6.2-7d2d4201ec-2.zip/node_modules/lodash.mergewith/",
+          "packageDependencies": [
+            ["lodash.mergewith", "npm:4.6.2"]
           ],
           "linkType": "HARD",
         }]

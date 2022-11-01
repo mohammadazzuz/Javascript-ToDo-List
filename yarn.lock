@@ -4,6 +4,16 @@
 __metadata:
   version: 4
 
+"@chakra-ui/styled-system@npm:^2.3.4":
+  version: 2.3.4
+  resolution: "@chakra-ui/styled-system@npm:2.3.4"
+  dependencies:
+    csstype: ^3.0.11
+    lodash.mergewith: 4.6.2
+  checksum: 2/44caf8371a2b80b886d268016e032c3512d88a6780a35ad8576f589d0fe8a4438900ceb669c2c31d0f9b9da3a3924fc2470af7569ac2b6f5071cd972e367659c
+  languageName: node
+  linkType: hard
+
 "@types/lodash@npm:4.14.187":
   version: 4.14.187
   resolution: "@types/lodash@npm:4.14.187"
@@ -15,7 +25,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "Javascript-ToDo-List@workspace:."
   dependencies:
+    "@chakra-ui/styled-system": ^2.3.4
     "@types/lodash": 4.14.187
+    gsap: ^3.11.3
     lodash: ^4.17.21
     todo: 0.9.9
   languageName: unknown
@@ -28,10 +40,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^3.0.11":
+  version: 3.1.1
+  resolution: "csstype@npm:3.1.1"
+  checksum: 2/b47b351bb6686b405b22075b64577abbc50e6700d3b1e4b0ea1f8fa8fc4ebd649e6b3764a17cf080e6da448b8c04c57fc4003799a4e83282be785ae6f7a8b2ed
+  languageName: node
+  linkType: hard
+
 "eyehurt@npm:0.0.1":
   version: 0.0.1
   resolution: "eyehurt@npm:0.0.1"
   checksum: 2/286b06c1206b3d5d6231417816ef4b7a64bd0f2157343610d458e16a756a7b241e14e21c64ad1b99013b002425368cfe64f6b7c59e5b7cd722c08cb361e6a400
+  languageName: node
+  linkType: hard
+
+"gsap@npm:^3.11.3":
+  version: 3.11.3
+  resolution: "gsap@npm:3.11.3"
+  checksum: 2/655c5e736a60916f281724526b8d360ece9c72da5764e10c9d16d88694c0b5f4e3c77f088fb17f5f6ed4c5ee80a0b7ca94133b9f0586a6787cf65bf4b4501c14
+  languageName: node
+  linkType: hard
+
+"lodash.mergewith@npm:4.6.2":
+  version: 4.6.2
+  resolution: "lodash.mergewith@npm:4.6.2"
+  checksum: 2/3561b63cebc629721ab4c016627fc54929ee33cdef1854b4a15ade71dd8eb5f2fc602830efe5395aed41c607d65e2cce356667116aa7156b82468594b42ab95f
   languageName: node
   linkType: hard
 
