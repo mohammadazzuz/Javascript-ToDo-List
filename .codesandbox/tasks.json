@@ -8,6 +8,10 @@
       "name": "git status",
       "command": "git status",
       "runAtStart": true
+    },
+    "preview": {
+      "name": "preview",
+      "command": "preview"
     }
   }
 }
