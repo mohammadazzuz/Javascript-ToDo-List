@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Javascript-ToDo-List
 https://mohammadazzuz.github.io/Javascript-ToDo-List/
 
